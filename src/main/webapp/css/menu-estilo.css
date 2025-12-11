@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.zqx-sidebar-g76 {
+    width: 250px;
+    background-color: #44a3e3;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.zqx-userinfo-001 {
+    padding: 20px;
+}
+
+.zqx-userinfo-001 h5 {
+    margin: 0;
+}
+
+.zqx-navsection-003 {
+    padding: 0 20px;
+    
+}
+
+.zqx-navlink-xx {
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.zqx-navlink-xx:hover {
+    background-color: #2c8bc5;
+    text-decoration: none;
+}
+
+.zqx-submenu-yy {
+    display: none;
+    padding-left: 15px;
+}
+
+.zqx-submenu-yy a {
+    font-size: 0.95rem;
+}
+
+.zqx-navitem-88.zqx-open-aa .zqx-submenu-yy {
+    display: block;
+}
+
+.zqx-logoutsection-99 {
+    padding: 20px;
+    border-top: 1px solid #3493c9;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.zqx-toggleicon-r {
+    float: right;
+    transition: transform 0.3s;
+}
+
+.zqx-navitem-88.zqx-open-aa .zqx-toggleicon-r {
+    transform: rotate(90deg);
+}

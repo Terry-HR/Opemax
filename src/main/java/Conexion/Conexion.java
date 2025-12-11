@@ -6,9 +6,9 @@ import java.sql.SQLException;
 public class Conexion {
 
     Connection con;
-    static String url = "jdbc:mysql://localhost:3306/opemax_bd";
-    static String user = "root";
-    static String pass = "";
+    static String url = "jdbc:mysql://35.225.253.206:3306/OpeMax_BD";
+    static String user = "elrooteano";
+    static String pass = "L&S+*TXcc8Z3nFa8";
 
     public Connection Conectar() {
         try {
